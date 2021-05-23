@@ -39,7 +39,7 @@ export default {
   },
   metaInfo () {
     return {
-      title: this.$page.allData.title
+      title: this.$context.allData.title
     }
   }
 }
