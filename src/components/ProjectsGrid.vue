@@ -2,7 +2,7 @@
     <div class="projects">
         <div class="project" v-for="item in projects" :key="item.id">
          
-            <g-link :to="'/project/'+item.title" class="project-link">
+            <g-link :to="'/project/'+item.id" class="project-link">
             <g-image
                 :src="'http://117.50.38.162:1337'+item.thumbnail.url"
                 :alt="item.title"
