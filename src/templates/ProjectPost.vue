@@ -27,7 +27,7 @@
           </div>
         </div>
 <g-image
-                :src="'http://localhost:1337'+$context.allData.thumbnail.url"
+                :src="'http://117.50.38.162:1337'+$context.allData.thumbnail.url"
                 :alt="$context.allData.title"
                 class="thumbnail"
             />
