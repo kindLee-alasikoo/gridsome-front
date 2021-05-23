@@ -4,7 +4,7 @@
          
             <g-link :to="'/project/'+item.title" class="project-link">
             <g-image
-                :src="'http://localhost:1337'+item.thumbnail.url"
+                :src="'http://117.50.38.162:1337'+item.thumbnail.url"
                 :alt="item.title"
                 class="thumbnail"
             />

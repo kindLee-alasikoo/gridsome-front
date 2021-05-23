@@ -19,7 +19,11 @@
             </div>
           </div>          
         </div>
-
+ <g-image
+                :src="'http://117.50.38.162:1337'+item.thumbnail.url"
+                :alt="item.title"
+                class="thumbnail"
+            />
         <JournalContent :content="$context.allData.content" />
 
       </div>
